@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog – Coffee Brew Reviews</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Coffee Blog</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="blog-list">
+      <article>
+        <h2>Review: Hario V60 Pour Over</h2>
+        <p>A clean, crisp cup that brings out the brighter notes. Great for light roasts!</p>
+        <a href="#">Read more...</a>
+      </article>
+      <!-- Add more posts as needed -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Coffee Brew Reviews</p>
+  </footer>
+</body>
+</html>
