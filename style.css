@@ -11,8 +11,11 @@
 /* Reset and Base */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: var(--beige);
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}  background-color: var(--beige);
   color: var(--coffee-brown);
 }
 
