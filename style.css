@@ -77,13 +77,6 @@ header {
   font-weight: bold;
 }
 
-/* Blog Previews */
-.latest-posts {
-  padding: 2rem;
-  background-color: var(--coffee-white);
-  color: var(--charcoal-black);
-}
-
 /* Center all section headings and text */
 section h2,
 section p,
