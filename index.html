@@ -2,35 +2,68 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Coffee Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Coffeen</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
+  <!-- HEADER -->
   <header>
-    <h1>Coffee Brew Reviews</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="blog.html">Blog</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <div class="logo-nav">
+      <img src="logo.png" alt="The Coffeen Logo" class="logo"/>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <h2>Welcome to the Coffee Blog</h2>
-      <p>Reviews of brews, beans, and brewing methods.</p>
-    </section>
+  <!-- MAIN HERO SECTION -->
+  <section class="hero-text">
+    <h1>Coffee Opinions. Served Hot.</h1>
+  </section>
 
-    <section class="socials">
+  <!-- BACKGROUND IMAGE + QUOTE -->
+  <section class="coffee-image-section">
+    <div class="overlay-text">
+      <h2>From fancy flat whites to instant shite — I review it all. One cup at a time.</h2>
+    </div>
+  </section>
+
+  <!-- LATEST BLOG POSTS -->
+  <section class="latest-posts">
+    <h2>Latest Reviews</h2>
+    <div class="blog-grid">
+      <article>
+        <h3>Review: Hario V60 Pour Over</h3>
+        <p>Bright, floral, and clean — the pour over for purists.</p>
+        <a href="#">Read more</a>
+      </article>
+      <article>
+        <h3>Review: AeroPress</h3>
+        <p>Pressure meets portability. A traveller’s dream brewer.</p>
+        <a href="#">Read more</a>
+      </article>
+      <article>
+        <h3>Review: Nescafé Gold Instant</h3>
+        <p>Desperate times call for... well, this. But it could be worse.</p>
+        <a href="#">Read more</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Contact me at <a href="mailto:your@email.com">your@email.com</a></p>
+    <div class="socials">
       <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
       <a href="https://tiktok.com/" target="_blank"><i class="fab fa-tiktok"></i></a>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Coffee Brew Reviews</p>
+    </div>
+    <p>&copy; 2025 The Coffeen</p>
   </footer>
+
 </body>
-</html>
+</html
